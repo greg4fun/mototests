@@ -1,0 +1,6 @@
+pytest
+requests
+fastapi[all]
+moto[server]
+uvicorn
+behave

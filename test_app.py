@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
 from moto import mock_organizations
 import pytest
-from app import app  # Import the FastAPI instance from your app module
+from main import app  # Import the FastAPI instance from your app module
 
 client = TestClient(app)
 
